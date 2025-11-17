@@ -105,6 +105,8 @@ int ft_printf(const char *str, ...)
 	- no specifier after %.
 	- % after %.
 	- putchar:
-		- 
+		- empty string ending with %
+
+
 - return of putstr if a string parameter is null.
 - 
