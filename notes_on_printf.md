@@ -105,7 +105,18 @@ int ft_printf(const char *str, ...)
 	- no specifier after %.
 	- % after %.
 	- putchar:
+		- null character
 		- empty string ending with %
+  - putstr:
+		- NULL input : print (nill) and return 6
+		- empty string
+		- long string
+	- putnbr:
+		- int_min
+		- 0
+		- negative
+		- int_max
+		- 
 
 
 - return of putstr if a string parameter is null.

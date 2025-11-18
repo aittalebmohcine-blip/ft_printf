@@ -38,6 +38,8 @@ int	ft_printf(const char *str, ...)
 		if (str[i] == '%')
     {
       //send the next char as a c to the printing function
+			if (!str[i+1] || (write(1, "",0) < 0))
+				return (-1);
       result += print_on_type(str[i+1], args);
 			i++;
     }

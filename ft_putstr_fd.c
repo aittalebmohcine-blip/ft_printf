@@ -17,7 +17,7 @@ int	ft_putstr_fd(char *s, int fd)
 	size_t	len;
 
 	if (!s)
-		return 0;//this should be handled, the fuc now return int.
+		return (write(fd, "(null)", 6));//this should be handled, the fuc now return int.
 	len = ft_strlen(s);
 	return (write(fd, s, len));
 }
