@@ -116,8 +116,31 @@ int ft_printf(const char *str, ...)
 		- 0
 		- negative
 		- int_max
-		- 
-
+	- putunsignedint
+    - -1
+    - 0
+    - max unsigned
+	- puthexlow and uprhex
+	- putptr
+	- printf(NULL) retunrs -1
+  - 
 
 - return of putstr if a string parameter is null.
-- 
+
+- make sure fd are correct
+
+- [x] norminette
+
+--------
+
+ we will try to organize this notes. use headers, sub headers.
+
+# general steps
+
+i have finished:
+- the core of the function.
+- made every file passe the norminette.
+next is :
+- understanding what happens in the back side (theory).
+
+- push.,

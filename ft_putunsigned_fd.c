@@ -1,9 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putunsigned_fd.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mait-tal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/26 09:15:46 by mait-tal          #+#    #+#             */
+/*   Updated: 2025/11/26 09:21:26 by mait-tal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
-int	ft_putunsigned_fd(unsigned int n,int fd)
+
+int	ft_putunsigned_fd(unsigned int n, int fd)
 {
-	unsigned int		divisor;
-	int		result;
-	char	c;
+	unsigned int	divisor;
+	int				result;
+	char			c;
 
 	result = 0;
 	divisor = 1;

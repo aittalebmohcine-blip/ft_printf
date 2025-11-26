@@ -6,7 +6,7 @@
 /*   By: mait-tal <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 16:14:16 by mait-tal          #+#    #+#             */
-/*   Updated: 2025/11/03 16:14:18 by mait-tal         ###   ########.fr       */
+/*   Updated: 2025/11/26 09:13:26 by mait-tal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_putstr_fd(char *s, int fd)
 	size_t	len;
 
 	if (!s)
-		return (write(fd, "(null)", 6));//this should be handled, the fuc now return int.
+		return (write(fd, "(null)", 6));
 	len = ft_strlen(s);
 	return (write(fd, s, len));
 }

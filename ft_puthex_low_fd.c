@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_puthex_low_fd.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mait-tal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/26 08:25:58 by mait-tal          #+#    #+#             */
+/*   Updated: 2025/11/26 08:27:58 by mait-tal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
 int	ft_puthex_low_fd(unsigned int n, int fd)
 {
-	unsigned int		divisor;
-	int		result;
-	char	c;
+	unsigned int	divisor;
+	int				result;
+	char			c;
 
 	result = 0;
 	divisor = 1;
